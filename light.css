@@ -1,0 +1,42 @@
+body{
+    background: rgba(17,12,21,0.95);
+    color: rgba(245,245,245,0.7);
+    font-size: 1em;
+    text-align: center; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.stanza{
+    font-style: italic;
+
+}
+
+#title{
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#regenerate{
+    color: white;
+    padding:10px;
+    background: rgba(0,0,0,0.4);
+}
+
+#controls{
+    display: inline-block;
+
+}
+
+#regenerate:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#about {
+    position:absolute;
+    bottom: 0;
+    right:0;
+}
