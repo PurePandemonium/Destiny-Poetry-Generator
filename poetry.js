@@ -35,9 +35,9 @@ function WriteLine(line) {
             weapon = ["There's nothing left. Not even the light."];
             stanza = $("#line1");
     }
-    stanza.fadeOut(700, function(){stanza.text(weapon[Math.floor(Math.random()*weapon.length)]);     });
+    stanza.fadeOut(700, function(){stanza.text(weapon[Math.floor(Math.random()*weapon.length)]); stanza.fadeIn(300);    });
     //stanza.text(weapon[Math.floor(Math.random()*weapon.length)]);     
-    stanza.fadeIn(300);
+    //stanza.fadeIn(300);
 }
 
 
